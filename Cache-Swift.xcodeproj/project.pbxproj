@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C211BC371F67E50000C63E23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211BC361F67E4FF00C63E23 /* AppDelegate.swift */; };
+		C211BC391F67E50000C63E23 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211BC381F67E50000C63E23 /* ViewController.swift */; };
+		C211BC3B1F67E50100C63E23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C211BC3A1F67E50100C63E23 /* Assets.xcassets */; };
+		C211BC3E1F67E50200C63E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C211BC3C1F67E50200C63E23 /* Main.storyboard */; };
+		C211BC461F67E5B500C63E23 /* LFUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211BC451F67E5B500C63E23 /* LFUCache.swift */; };
+		C211BC481F67E5E700C63E23 /* LRUCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211BC471F67E5E700C63E23 /* LRUCache.swift */; };
+		C211BC4A1F67E62100C63E23 /* FARCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211BC491F67E62100C63E23 /* FARCache.swift */; };
+		C211BC4C1F67E6AD00C63E23 /* UtilCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211BC4B1F67E6AD00C63E23 /* UtilCache.swift */; };
+		C211BC4E1F67E73100C63E23 /* CacheEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = C211BC4D1F67E73100C63E23 /* CacheEntry.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C211BC331F67E4FE00C63E23 /* Cache-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cache-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C211BC361F67E4FF00C63E23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C211BC381F67E50000C63E23 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C211BC3A1F67E50100C63E23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C211BC3D1F67E50200C63E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C211BC3F1F67E50200C63E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C211BC451F67E5B500C63E23 /* LFUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LFUCache.swift; sourceTree = "<group>"; };
+		C211BC471F67E5E700C63E23 /* LRUCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LRUCache.swift; sourceTree = "<group>"; };
+		C211BC491F67E62100C63E23 /* FARCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FARCache.swift; sourceTree = "<group>"; };
+		C211BC4B1F67E6AD00C63E23 /* UtilCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilCache.swift; sourceTree = "<group>"; };
+		C211BC4D1F67E73100C63E23 /* CacheEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheEntry.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C211BC301F67E4FD00C63E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C211BC2A1F67E4FA00C63E23 = {
+			isa = PBXGroup;
+			children = (
+				C211BC351F67E4FE00C63E23 /* Cache-Swift */,
+				C211BC341F67E4FE00C63E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C211BC341F67E4FE00C63E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C211BC331F67E4FE00C63E23 /* Cache-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C211BC351F67E4FE00C63E23 /* Cache-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C211BC361F67E4FF00C63E23 /* AppDelegate.swift */,
+				C211BC381F67E50000C63E23 /* ViewController.swift */,
+				C211BC3A1F67E50100C63E23 /* Assets.xcassets */,
+				C211BC3C1F67E50200C63E23 /* Main.storyboard */,
+				C211BC3F1F67E50200C63E23 /* Info.plist */,
+				C211BC451F67E5B500C63E23 /* LFUCache.swift */,
+				C211BC471F67E5E700C63E23 /* LRUCache.swift */,
+				C211BC491F67E62100C63E23 /* FARCache.swift */,
+				C211BC4B1F67E6AD00C63E23 /* UtilCache.swift */,
+				C211BC4D1F67E73100C63E23 /* CacheEntry.swift */,
+			);
+			path = "Cache-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C211BC321F67E4FD00C63E23 /* Cache-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C211BC421F67E50300C63E23 /* Build configuration list for PBXNativeTarget "Cache-Swift" */;
+			buildPhases = (
+				C211BC2F1F67E4FD00C63E23 /* Sources */,
+				C211BC301F67E4FD00C63E23 /* Frameworks */,
+				C211BC311F67E4FD00C63E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cache-Swift";
+			productName = "Cache-Swift";
+			productReference = C211BC331F67E4FE00C63E23 /* Cache-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C211BC2B1F67E4FB00C63E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FSDM;
+				TargetAttributes = {
+					C211BC321F67E4FD00C63E23 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C211BC2E1F67E4FC00C63E23 /* Build configuration list for PBXProject "Cache-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C211BC2A1F67E4FA00C63E23;
+			productRefGroup = C211BC341F67E4FE00C63E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C211BC321F67E4FD00C63E23 /* Cache-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C211BC311F67E4FD00C63E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C211BC3B1F67E50100C63E23 /* Assets.xcassets in Resources */,
+				C211BC3E1F67E50200C63E23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C211BC2F1F67E4FD00C63E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C211BC4C1F67E6AD00C63E23 /* UtilCache.swift in Sources */,
+				C211BC481F67E5E700C63E23 /* LRUCache.swift in Sources */,
+				C211BC4E1F67E73100C63E23 /* CacheEntry.swift in Sources */,
+				C211BC461F67E5B500C63E23 /* LFUCache.swift in Sources */,
+				C211BC391F67E50000C63E23 /* ViewController.swift in Sources */,
+				C211BC4A1F67E62100C63E23 /* FARCache.swift in Sources */,
+				C211BC371F67E50000C63E23 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C211BC3C1F67E50200C63E23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C211BC3D1F67E50200C63E23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C211BC401F67E50200C63E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C211BC411F67E50200C63E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C211BC431F67E50300C63E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cache-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.fsdm.Cache-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C211BC441F67E50300C63E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Cache-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ma.fsdm.Cache-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C211BC2E1F67E4FC00C63E23 /* Build configuration list for PBXProject "Cache-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C211BC401F67E50200C63E23 /* Debug */,
+				C211BC411F67E50200C63E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C211BC421F67E50300C63E23 /* Build configuration list for PBXNativeTarget "Cache-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C211BC431F67E50300C63E23 /* Debug */,
+				C211BC441F67E50300C63E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C211BC2B1F67E4FB00C63E23 /* Project object */;
+}
