@@ -12,27 +12,30 @@ class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let entry1 = CacheEntry()
-        LRUCache.sharedInstance.addEntry(entry1)
+        let m1 = Mobile()
+        m1.location = Location(x: 1, y: 1)
+        m1.velocity = Velocity(x: 1, y: 1)
+        FARCache.sharedInstance.add(m1)
         
-        let entry2 = CacheEntry()
-        LRUCache.sharedInstance.addEntry(entry2)
+        let m2 = Mobile()
+        m2.location = Location(x: 3, y: 3)
+        m2.velocity = Velocity(x: -2, y: 0)
+        FARCache.sharedInstance.add(m2)
         
-        let _ = LRUCache.sharedInstance.getEntry(entry1.uuid)
+        let m3 = Mobile()
+        m3.location = Location(x: -2, y: 3)
+        m3.velocity = Velocity(x: 0, y: -5)
+        FARCache.sharedInstance.add(m3)
         
-        let entry3 = CacheEntry()
-        LRUCache.sharedInstance.addEntry(entry3)
+        let m4 = Mobile()
+        m4.location = Location(x: -2, y: -2)
+        m4.velocity = Velocity(x: 6, y: -3)
+        FARCache.sharedInstance.add(m4)
         
-        let _ = LRUCache.sharedInstance.getEntry(entry2.uuid)
-
-        let entry4 = CacheEntry()
-        LRUCache.sharedInstance.addEntry(entry4)
-
-        let entry5 = CacheEntry()
-        LRUCache.sharedInstance.addEntry(entry5)
-        
-        LRUCache.sharedInstance.allEntries()
-        // Do any additional setup after loading the view.
+        let m5 = Mobile()
+        m5.location = Location(x: 2, y: -3)
+        m5.velocity = Velocity(x: 3, y: 1)
+        FARCache.sharedInstance.add(m5)
     }
 
     override var representedObject: Any? {
